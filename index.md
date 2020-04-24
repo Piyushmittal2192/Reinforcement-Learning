@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Basics of RL
+-----------------------------------------
+### Explore Expolit Deliemma
+#### Slot Machine Example 
 
-You can use the [editor on GitHub](https://github.com/Piyushmittal2192/Reinforcement-Learning/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Whenever we go to casino and play slot machines, we either look at people who are already playing or we play ourself on different machines to evalute which machine gives best winings.
+i.e. we calculate a statistical value called "Win Ratio" that defines how many times we won from a machine. In order to calculate this ratio, we first have to play or observe the game for n number of times. But, the question is, what is optimal value of "n". We can't always keep on playing or observing to idenitfy the best slot machine. Therefore comes the Explore Exploit Deliemma. <br>
+We need balance between number of trials we play to collect data and maximise the earnings. i.e. Maximise the winning with minimum number of attempts to collect the data. Expliot the environment via minimum exploration.
+  
+   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Piyushmittal2192/Reinforcement-Learning/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  
