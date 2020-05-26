@@ -8,7 +8,7 @@ i.e. we calculate a statistical value called "Win Ratio" that defines how many t
 We need balance between number of trials we play to collect data and maximise the earnings. i.e. Maximise the winning with minimum number of attempts to collect the data. Expliot the environment via minimum exploration.
 
 <b>Greedy Algorithm</b> : Take action for local optimal solution to reach global optimal. <br>
-<b>Epsilon-Greedy</b> : Associate a small probability(epsilon) of taking something random actions (non-greedy). epsilon is usually 5% or 10%. <br>
+<b>Epsilon-Greedy</b> : Associate a small probability(epsilon) of taking something random actions (non-greedy). epsilon is usually 5% or 10%.
   - Explore if win rate is less than epsilon
   - Exploit if win rate is greater than epsilon
   
