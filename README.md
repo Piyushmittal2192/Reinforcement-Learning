@@ -11,6 +11,8 @@ We need balance between number of trials we play to collect data and maximise th
 <b>Epsilon-Greedy</b> : Associate a small probability(epsilon) of taking something random actions (non-greedy). epsilon is usually 5% or 10%.
   - Explore if win rate is less than epsilon
   - Exploit if win rate is greater than epsilon
+
+<b> Upper Bound Confidence </b>: Probabilty of error being bigger than a very large number is smaller and Prob of error being bigger than very small number is larger. error = sample_mean - true mean  
   
    
 
