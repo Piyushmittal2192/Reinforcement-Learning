@@ -31,6 +31,12 @@ We need balance between number of trials we play to collect data and maximise th
     - deterministic : a = π(s) # π is function that takes a state as argument and returns action
     - probabilistic : π(a|s)  # π is probability distribution over action a given state s
 
+### Markov chain: for discrete events
+### Markov Process : for continous events
+
+#### Markov Property : First order Markov Assumption
+- Forget about any sequence greater than len 2
+- p(st|st-1, st-2, st-3,,,,,s1) = p(st | st-1) # i.e. state at time t only depends on state at time t-1
 
   
    
