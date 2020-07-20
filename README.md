@@ -19,6 +19,18 @@ We need balance between number of trials we play to collect data and maximise th
 - Returns : sum of future rewards
 - Value : expected sum of future rewards
 - Belman Equation : this allows us to solve for value function and to create agent that behaves optimally
+- State Space : Set of all possible states
+- Episode : each iteration of a game from start to terminal state of game.
+- Terminal State : End of game.
+- Non episodic tasks : Controlling room temperature 
+- Environment - is the world in which agent lives in.
+- Policy : it is function that Maps state to action ( agents brain ). it always leads to winning state.
+  - Policy can be pre-defined function, an euqation or a neural network.
+  - can be probabilistic or deterministic
+    - deterministic : a = π(s)
+    - probabilistic : π(a|s)
+
+
   
    
 
