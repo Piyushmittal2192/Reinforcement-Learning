@@ -13,6 +13,12 @@ We need balance between number of trials we play to collect data and maximise th
   - Exploit if win rate is greater than epsilon
 
 <b> Upper Bound Confidence </b>: Probabilty of error being bigger than a very large number is smaller and Prob of error being bigger than very small number is larger. error = sample_mean - true mean  
+
+
+### MDP
+- Returns : sum of future rewards
+- Value : expected sum of future rewards
+- Belman Equation : this allows us to solve for value function and to create agent that behaves optimally
   
    
 
