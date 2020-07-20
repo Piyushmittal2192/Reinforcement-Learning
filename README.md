@@ -15,7 +15,7 @@ We need balance between number of trials we play to collect data and maximise th
 <b> Upper Bound Confidence </b>: Probabilty of error being bigger than a very large number is smaller and Prob of error being bigger than very small number is larger. error = sample_mean - true mean  
 
 
-### MDP
+### MDP : a discrete time stochastic control process
 - Returns : sum of future rewards
 - Value : expected sum of future rewards
 - Belman Equation : this allows us to solve for value function and to create agent that behaves optimally
@@ -43,6 +43,7 @@ We need balance between number of trials we play to collect data and maximise th
 - probability of moving from state i to state j i.e. i->j 
 - assumption this probabilty will remain same irreseptive of time. i.e. no matter what prob of going from state i to j will remain same always.
 - p(state(t) = j | state(t-1) = i) = count(i->j)/ count(i)
+- Single Transition or step of MDP Representation = {s, a, r, s'}
 
   
    
