@@ -29,6 +29,7 @@ We need balance between number of trials we play to collect data and maximise th
   - can be probabilistic or deterministic
     - deterministic : a = π(s)
     - probabilistic : π(a|s)
+    - π is function that takes a state as argument and returns action
 
 
   
