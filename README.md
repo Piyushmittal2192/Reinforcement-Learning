@@ -45,6 +45,10 @@ We need balance between number of trials we play to collect data and maximise th
 - p(state(t) = j | state(t-1) = i) = count(i->j)/ count(i)
 - Single Transition or step of MDP Representation = {s, a, r, s'}
 
+#### Everything is probability
+- Agent :  π(a|s)
+- Environment : p( s', r | s , a )
+
   
    
 
