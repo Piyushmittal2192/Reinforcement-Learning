@@ -20,6 +20,7 @@ We need balance between number of trials we play to collect data and maximise th
 - Value : expected sum of future rewards
 - Belman Equation : this allows us to solve for value function and to create agent that behaves optimally
 - State Space : Set of all possible states
+  - state does not need to be single obsevation at one time. we can take multiple obervations as one set and call it a state
 - Action Space : Set of all possible actions
 - Episode : each iteration of a game from start to terminal state of game.
 - Terminal State : End of game.
@@ -37,6 +38,11 @@ We need balance between number of trials we play to collect data and maximise th
 #### Markov Property : First order Markov Assumption
 - Forget about any sequence greater than len 2
 - p(st|st-1, st-2, st-3,,,,,s1) = p(st | st-1) # i.e. state at time t only depends on state at time t-1
+
+#### State Transition Matrix
+- probability of moving from state i to state j i.e. i->j 
+- assumption this probabilty will remain same irreseptive of time. i.e. no matter what prob of going from state i to j will remain same always.
+- p(state(t) = j | state(t-1) = i) = count(i->j)/ count(i)
 
   
    
