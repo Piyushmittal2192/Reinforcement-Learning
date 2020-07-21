@@ -48,7 +48,18 @@ We need balance between number of trials we play to collect data and maximise th
 #### Everything is probability
 - Agent :  π(a|s)
 - Environment : p( s', r | s , a )
-
+- Why prob is needed : using prob we can quantify the uncertainty of the measured environment state being wrong, even if the true nature of the environment is deterministic
+  - we might not have perfect information
+  - the state is our computer measurement, not the true state of the environment
+  - in case of self-driving some objects can be occluded
+  - online advertisement - some people use fake information or use others account, so wont have correct information of the users and his preoferneces.
+  
+#### Discrete Time Stochastic Control Process
+- Stochastic = Random Process 
+  - stock price is a stohcastic
+  - whereas events like customers entering in a shop is a poisson process
+  - all the observations measured are a timestamp so in RL we will consider discrete control process
+  
   
    
 
