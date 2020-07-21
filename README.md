@@ -61,6 +61,8 @@ We need balance between number of trials we play to collect data and maximise th
   - all the observations measured are a timestamp so in RL we will consider discrete control process
   
   
+  
+  
    
 
   
