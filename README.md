@@ -60,6 +60,9 @@ We need balance between number of trials we play to collect data and maximise th
   - whereas events like customers entering in a shop is a poisson process
   - all the observations measured are a timestamp so in RL we will consider discrete control process
   
+#### Future Rewards
+- Goal of value function is to maximise the future rewards. we dont care about past rewards becasue that state has already happened
+  
   
   
   
