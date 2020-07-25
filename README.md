@@ -61,7 +61,13 @@ We need balance between number of trials we play to collect data and maximise th
   - all the observations measured are a timestamp so in RL we will consider discrete control process
   
 #### Future Rewards
-- Goal of value function is to maximise the future rewards. we dont care about past rewards becasue that state has already happened
+- Goal of value function is to maximise the future rewards. we dont care about past or current rewards as we cant maximise them becasue that state has already happened and we already recieved those rewards # but this might not be true do not but may be in future i can test later on.
+- G(t) = R(t + 1) + R(t + 2) + R(t + 3) + ...... + R(t + n + 1) = Sigma( R(t + n + 1) where  n goes from 0 to infinite
+
+#### Why RL is important
+- real life scenarios involves lot of states, chess contains power(10, 50) and game of Go contains power(10, 170) states. It is not possible to manage all these states and the respective action attached to them. Moreover even if we store the state action pair of all such states and take actions when such state occurs in future. agent is not actually learning.
+
+##### Planning 
   
   
   
