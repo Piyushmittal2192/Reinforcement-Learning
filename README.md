@@ -86,6 +86,9 @@ We need balance between number of trials we play to collect data and maximise th
     - this leads to mismatch to what we want to achieve
       - the highest score is not discounted
       - purpose of discouting is to improve training process but not to maximise the disconuted rewards.
+- if the environment involves short episodic tasks then there is no need of discounting
+- optimal value of hyperparameter γ is near 1 value like 0.9, 0.97, 0.999
+
       
       
   
