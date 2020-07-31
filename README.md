@@ -88,6 +88,10 @@ We need balance between number of trials we play to collect data and maximise th
       - purpose of discouting is to improve training process but not to maximise the disconuted rewards.
 - if the environment involves short episodic tasks then there is no need of discounting
 - optimal value of hyperparameter γ is near 1 value like 0.9, 0.97, 0.999
+- if the episode is infinitely long, then without discounting the future some of rewars will be infinite. It is not possible to compare two rewards with infinite rewards.
+
+###### State transition probabilty for terminal state is 1 if it goes back to itself otherwise 0
+
 
       
       
