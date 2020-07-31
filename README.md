@@ -75,7 +75,19 @@ We need balance between number of trials we play to collect data and maximise th
 - Downgrade rewards that are further into the future. Why ?
   - rewards right now are worth more than the rewards in the future. e.g. right now value of $100 is higher than the 10 yrs from now.
 - G(t) = R(t+1) + γ * R(t+2) + γ*γ * R(t+3) + ....
-
+- In a stochastic(random) process, it is had to predict what is gonna happen in future. Threfore near future matters more because we know whats gonna happen in near future.
+###### γ Values
+- γ = 0
+  - G(t) = R(t+1) # greedy or short sighted 
+- γ = 1  
+  - G(t) = R(t + 1) + R(t + 2) + R(t + 3) + ......# sum of true rewards. - dont discount the future rewards 
+    - this is as close to maximising future rewards as by discouting we are reducing value of total reward
+    - but we have to give discoiuting factor in the algorithm
+    - this leads to mismatch to what we want to achieve
+      - the highest score is not discounted
+      - purpose of discouting is to improve training process but not to maximise the disconuted rewards.
+      
+      
   
   
   
