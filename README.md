@@ -70,7 +70,12 @@ We need balance between number of trials we play to collect data and maximise th
 ##### Planning 
 - RL is good because it has built-in planning feature.
 - suppose we are playing a game. The game involves 100s or 1000s of steps to reach the final goal. We can't store all the steps that lead to solving  
-  
+
+##### Discounting. γ
+- Downgrade rewards that are further into the future. Why ?
+  - rewards right now are worth more than the rewards in the future. e.g. right now value of $100 is higher than the 10 yrs from now.
+- G(t) = R(t+1) + γ * R(t+2) + γ*γ * R(t+3) + ....
+
   
   
   
